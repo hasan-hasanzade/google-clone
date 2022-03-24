@@ -1,0 +1,103 @@
+* {
+   margin: 0;
+   padding: 0;
+   box-sizing: border-box;
+   text-decoration: none;
+}
+
+/* Svg-lerin olcusu */
+
+
+
+.search-svg {
+   width: 36px;
+}
+
+.vs-svg {
+   width: 36px;
+}
+
+
+footer {
+   background: green;
+}
+
+body {
+   display: flex;
+   flex-direction: column;
+   min-height: 100vh;
+
+}
+
+nav {
+   display: flex;
+   justify-content: flex-end;
+   align-items: center;
+   padding: 6px;
+}
+
+/* Descendant selector nav a */
+
+nav a {
+   display: inline-block;
+   line-height: 24px;
+   vertical-align: middle;
+   padding: 5px 7px;
+   color: rgba(0, 0, 0, .87);
+}
+
+nav a:hover {
+   text-decoration: underline;
+   
+}
+
+nav button {
+   background: #1a73e8;
+   color: #fff;
+   border: 1px solid transparent;
+   padding: 7px 12px;
+   border-radius: 5px;
+   cursor: pointer;
+}
+
+nav a img {
+   width: 34px;
+   padding: 5px;
+   vertical-align: middle;
+}
+
+nav a img:hover {
+   display: inline-block;
+   padding-top: 5px;
+   width: 34px;
+  
+   border-radius: 50%;
+   background: #e7e7e7;
+}
+
+section {
+   flex: 1;
+}
+
+section {
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
+}
+
+section .logo {
+   width: 272px;
+   height: 92px;
+
+}
+
+.s-box {
+   background: red;
+   width: 580px;
+   
+}
+
+.search-svg {
+   position: ;
+}
